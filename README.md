@@ -1,6 +1,6 @@
 # DS200 - LAB 1: MapReduce với Apache Hadoop
 
-## 📁 Cấu trúc thư mục
+## 1. Cấu trúc thư mục
 
 ```
 DS200-LAB-1/
@@ -15,7 +15,7 @@ DS200-LAB-1/
 
 ---
 
-## 📂 Dữ liệu (`data/`)
+## 2. Dữ liệu (`data/`)
 
 | File | Schema | Mô tả |
 |------|--------|-------|
@@ -26,7 +26,7 @@ DS200-LAB-1/
 
 ---
 
-## 📝 Các bài tập
+## 3. Các bài tập
 
 ### Bài 1: Tính Điểm Đánh Giá Trung Bình và Tổng Số Lượt Đánh Giá Cho Mỗi Phim
 
@@ -139,7 +139,7 @@ hadoop fs -cat /output/age_final/part-r-00000
 
 ---
 
-## ⚙️ Môi trường
+## 4. Môi trường
 
 - **OS:** macOS
 - **Hadoop:** Single-node cluster (localhost)
@@ -148,7 +148,7 @@ hadoop fs -cat /output/age_final/part-r-00000
 
 ---
 
-## 🚀 Hướng dẫn chung
+## 5. Hướng dẫn chung
 
 **Upload dữ liệu lên HDFS:**
 ```bash
